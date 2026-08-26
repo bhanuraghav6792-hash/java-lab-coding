@@ -218,3 +218,103 @@ import java.util.Scanner;
 //         System.out.println(palindrome(n)?"palindrome":"not palindrome");
 //     }
 // }
+
+//ARRAYS
+module 5 arrays college
+
+1.
+// import java.util.Scanner;
+// public class ControlFlow {
+//     public static void main(String args[]) {
+//         int n = 30;
+//         boolean arr[] = new boolean[n];
+//         Scanner sc = new Scanner(System.in);
+//         for(int i=0;i<n;i++){
+//             arr[i] = sc.next().equals("p")?true:false;
+//         }
+//         int countP = 0;
+//         for(boolean b : arr){
+//             if(b){
+//                 countP++;
+//             }
+            
+//         }
+//         System.out.println("present" +countP);
+//         System.out.println("present" +(n-countP));
+//         System.out.println("present" +((float)countP/n*100));
+        
+       
+//     }
+// }
+
+2.
+// import java.util.Scanner;
+// public class ControlFlow {
+//     public static void main(String args[]) {
+//         int n = 30;
+//         float ar[] = new float[n];
+//         Scanner sc = new Scanner(System.in);
+//         for(int i=0;i<n;i++){
+//             ar[i] = sc.nextFloat();
+//         }
+//         float max = ar[0];
+//         float min = ar[0];
+//         float sum = 0;
+        
+//         for(float p : ar){
+//             if(p>max){
+//                 max = p;
+//             }
+//             if(p<min){
+//                 min = p;
+//                 sum = sum + p;
+//             }
+//         }
+//         System.out.println("totalbill" +sum);
+//         System.out.println(" highprice" +max);
+//         System.out.println("lowest price" +min);
+//         System.out.println("average price" +sum/n);
+        
+       
+//     }
+// }
+
+
+3.
+// import java.util.Scanner;
+// public class ControlFlow {
+//     public static void main(String args[]) {
+//         int n = 30;
+//         float ar[] = new float[n];
+//         Scanner sc = new Scanner(System.in);
+//         for(int i=0;i<n;i++){
+//             ar[i] = sc.nextFloat();
+//         }
+//         float max = ar[0];
+//         float min = ar[0];
+//         float sum = 0;
+        
+//         for(float p : ar){
+//             if(p>max){
+//                 max = p;
+//             }
+//             if(p<min){
+//                 min = p;
+//                 sum = sum + p;
+//             }
+//         }
+//         float avg = sum/n;
+//         int countAboveAvg = 0;
+//         for(float t:ar){
+//             if(t>avg){
+//                 countAboveAvg++;
+//             }
+//         }
+//         System.out.println("totalbill" +max);
+//         System.out.println(" highprice" +min);
+//         System.out.println("lowest price" +avg);
+//         System.out.println("average price" +countAboveAvg);
+        
+       
+//     }
+// }
