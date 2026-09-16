@@ -318,3 +318,49 @@ module 5 arrays college
        
 //     }
 // }
+
+//multilevel inherutance with super class and method
+
+class person{
+    int aadharid;
+    String name;
+    person(int aadharid,String name){
+        this.aadharid = aadharid;
+        this.name = name;
+    }
+    void display(){
+        System.out.println("aadhar id"+aadharid);
+        System.out.println("name"+name);
+    }
+}
+class employee extends person{
+    int empid;
+    public employee(int aadharid,String name,int empid){
+        super(aadharid,name);
+        System.out.println("employee const.")
+        this.empid = empid;
+    }
+    void display(){
+        super.display();
+        System.out.println("emp id"+empid);
+    }
+}
+class softwareengineer extends employee{
+    String projectname;
+    public employee(int aadharid,String name,int empid,String projectname){
+        super(aadharid,name,empid);
+        System.out.println("employee const.")
+        this.projectname = projectname ;
+    }
+    void display(){
+        super.display()
+        System.out.println("emp id"+projectname);
+    }
+}
+
+public class MyClass {
+  public static void main(String args[]) {
+    softwareengineer sf = new softwareengineer(3838,"bhanu",32,"java full stack")
+    sf.display();
+  }
+}
